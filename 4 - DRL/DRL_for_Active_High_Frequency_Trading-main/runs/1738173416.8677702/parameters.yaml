@@ -1,0 +1,55 @@
+- !!python/tuple
+  - last_n_ticks
+  - 10
+- !!python/tuple
+  - snapshot_size
+  - 5000
+- !!python/tuple
+  - snapshots_per_day
+  - 3
+- !!python/tuple
+  - tot_snapshots
+  - 25
+- !!python/tuple
+  - start_end_clip
+  - 0
+- !!python/tuple
+  - epochs
+  - 30
+- !!python/tuple
+  - lr
+  - 0.00032
+- !!python/tuple
+  - grad_clip
+  - 0.5
+- !!python/tuple
+  - gamma
+  - 0.99
+- !!python/tuple
+  - ent_coef
+  - 0.002
+- !!python/tuple
+  - net_arch
+  - - 64
+    - 64
+- !!python/tuple
+  - data_dir
+  - /Volumes/L96/DRL/days/
+- !!python/tuple
+  - rescale
+  - true
+- !!python/tuple
+  - resample
+  - false
+- !!python/tuple
+  - use_m_t_m
+  - true
+- !!python/tuple
+  - seed
+  - 3538
+- !!python/tuple
+  - tag
+  - null
+- !!python/tuple
+  - eval_runs_per_env
+  - 1
