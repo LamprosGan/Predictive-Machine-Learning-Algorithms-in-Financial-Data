@@ -49,7 +49,7 @@ This is the standard dataset used in DeepLOB and many related papers. It contain
 
 A subset of messages as they arrived from the Athens Stock Exchange (Athex). The full dataset used in this thesis is not publicly available due to size and licensing restrictions. However, a small sample is provided for demonstration purposes.
 
-- 📥 **Download example data (stocks_sample.pkl)**: [Google Drive Link]([https://drive.google.com/your-sample-link](https://drive.google.com/drive/folders/1XxX74Jau7vuTtma6S4bcDYC1NbFxDI60?usp=drive_link))
+- 📥 **Download example data (stocks_sample.pkl)**: [Google Drive Link](https://drive.google.com/your-sample-link](https://drive.google.com/drive/folders/1XxX74Jau7vuTtma6S4bcDYC1NbFxDI60?usp=drive_link))
 
 ## 🧭 Project Workflow
 
