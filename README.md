@@ -51,6 +51,68 @@ A subset of messages as they arrived from the Athens Stock Exchange (Athex). The
 
 - 📥 **Download example data (stocks_sample.pkl)**: [Google Drive Link]([https://drive.google.com/your-sample-link](https://drive.google.com/drive/folders/1XxX74Jau7vuTtma6S4bcDYC1NbFxDI60?usp=drive_link))
 
+## 🧭 Project Workflow
+
+The implementation of this thesis is structured into four main stages:
+
+---
+
+### 1️⃣ Data Mining (Only for Athex Data)
+
+Raw Messages from the Athens Stock Exchange (Athex) was collected from a market maker's feed. This stage includes:
+
+- Parsing raw message and order book files.
+- Saving cleaned datasets for further processing.
+
+---
+
+### 2️⃣ Data Preparation (Only for Athex Data)
+
+The raw Athex data was transformed into a format compatible with DeepLOB and TransLOB models. This includes:
+
+- Windowing LOB data into sequences.
+- Creating train/val/test splits.
+- Standardizing features.
+- Saving Pickle-ready files.
+
+---
+
+### 3️⃣ Experiments
+
+#### 📌 Experiment 1 – Reproduce Published Results
+
+- ✅ **Data**: FI-2010 dataset + Processed Athex data
+- ✅ **Models**: DeepLOB & TransLOB
+- ✅ **Goal**: Confirm performance on FI-2010 and test generalization on Athex
+- ✅ **Provided**: Pre-trained weights + Evaluation metrics
+
+---
+
+#### 📌 Experiment 2 – Per-Stock Evaluation on Athex
+
+- ✅ **Data**: Processed Athex data
+- ✅ **Model**: DeepLOB
+- ✅ **Goal**: Evaluate model performance separately on each Athex stock
+- ✅ **Provided**: Trained weights per stock + Metrics + Visualizations
+
+---
+
+### 4️⃣ DRL Agent for Automated Trading
+
+- ✅ **Data Source**: `data_collect.ipynb` (samples from Athex LOB stream)
+- ✅ **Goal**: Train a Deep Reinforcement Learning agent to issue buy/sell/hold actions
+- ✅ **Provided**: Training logs + evaluation results + saved models
+
+📁 Output: `/runs/`, `/runs_results/`
+
+---
+
+### 🎯 Summary
+
+- You **do not need to retrain** any model to view results.
+- All **model weights, configs, and outputs** are provided.
+- Every stage is modular, and you can run only the part you're interested in.
+
 
 
 ## 📚 References & Resources
@@ -64,3 +126,4 @@ A subset of messages as they arrived from the Athens Stock Exchange (Athex). The
 - **DRL for LOBs**: [Antonio, Turiel, Marcaccioli, Cauderan, & Aste , 2021 – Deep Reinforcement Learning for Active High Frequency Trading](https://arxiv.org/abs/2101.07107)
 
 - **My Thesis Repository**: [GitHub – LamprosGanias/Predictive-Machine-Learning-Algorithms-in-Financial-Data](https://github.com/LamprosGan/Predictive-Machine-Learning-Algorithms-in-Financial-Data)
+- **My Thesis Paper**: []
