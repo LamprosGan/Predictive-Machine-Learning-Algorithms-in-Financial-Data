@@ -40,7 +40,7 @@ The project uses two main datasets:
 
 ### 1. FI-2010 Benchmark Dataset
 
-This is the standard dataset used in DeepLOB and many related papers. It contains high-frequency Limit Order Book data for five stocks from the London Stock Exchange.
+This is the standard dataset used in DeepLOB and many related papers. It contains high-frequency Limit Order Book data for five stocks from Nasdaq Stock Market.
 
 - 📥 **Download link**: [FI-2010 Dataset](https://etsin.fairdata.fi/dataset/73eb48d7-4dbc-4a10-a52a-da745b47a649)
 
