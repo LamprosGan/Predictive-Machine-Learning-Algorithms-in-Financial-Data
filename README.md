@@ -26,7 +26,7 @@ In the second phase, we conducted a **per-stock evaluation** by training and tes
 
 ### 📌 Experiment 3: Deep Reinforcement Learning for Automated Trading
 
-Building on the predictive models, we implemented a **Deep Reinforcement Learning (DRL)** approach inspired by the paper _“Model-based Reinforcement Learning for Predictions and Control for Limit Order Books”_ by Wei et al. (2019). The goal was to:
+Building on the predictive models, we implemented a **Deep Reinforcement Learning (DRL)** approach inspired by the paper _“Deep Reinforcement Learning for Active High Frequency Trading”_ by Wei et al. (2019). The goal was to:
 
 - Train a trading agent that learns an optimal policy for submitting buy/sell/hold orders based on the LOB state,
 - Simulate a real-time trading environment with realistic constraints (latency, transaction costs, market impact),
