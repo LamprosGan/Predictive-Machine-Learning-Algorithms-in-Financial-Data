@@ -6,7 +6,7 @@ This project aims to explore and evaluate deep learning models for short-term st
 
 ## 🔍 Project Overview
 
-This project applies deep learning techniques to the problem of short-term price forecasting using Limit Order Book (LOB) data. It focuses on evaluating the effectiveness and generalizability of two state-of-the-art models: **DeepLOB** and **TransLOB**. The work is organized into two main experiments:
+This project applies deep learning techniques to the problem of short-term price forecasting using Limit Order Book (LOB) data. It focuses on evaluating the effectiveness and generalizability of two models: **DeepLOB** and **TransLOB**. The work is organized into two main experiments:
 
 ### 📌 Experiment 1: Model Reproduction & Cross-Market Evaluation
 
