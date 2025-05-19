@@ -126,4 +126,4 @@ The raw Athex data was transformed into a format compatible with DeepLOB and Tra
 - **DRL for LOBs**: [Antonio, Turiel, Marcaccioli, Cauderan, & Aste , 2021 – Deep Reinforcement Learning for Active High Frequency Trading](https://arxiv.org/abs/2101.07107)
 
 - **My Thesis Repository**: [GitHub – LamprosGanias/Predictive-Machine-Learning-Algorithms-in-Financial-Data](https://github.com/LamprosGan/Predictive-Machine-Learning-Algorithms-in-Financial-Data)
-- **My Thesis Paper**: []
+- **My Thesis Paper**: [Google Drive Link](https://drive.google.com/file/d/1Mq1C8PMpWM3ABpTuLHDjosm8LLYySA04/view?usp=sharing)
